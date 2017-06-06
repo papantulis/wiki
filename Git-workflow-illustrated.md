@@ -1,4 +1,6 @@
 
+# Git workflow illustrated
+
 This post illustrates the common Git workflow. I created this especially for my own reference when working with git.
 
 
