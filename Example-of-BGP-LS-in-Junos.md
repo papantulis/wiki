@@ -1,3 +1,4 @@
+# Example of BGP-LS in JunOS
 
 ## Sample config
 
