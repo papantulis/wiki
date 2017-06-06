@@ -4,7 +4,6 @@
     * [Mirror VM traffic in Openstack/Contrail with custom sniffer](Networking/Mirror-VM-traffic-in-Openstack-Contrail-with-custom-sniffer.md)
     * [How to Setup Contrail Simple Gateway](Networking/How-to-Setup-Contrail-Simple-Gateway.md)
     * [A hack to create routed virtual network in Openstack with Openvswitch](Networking/A-hack-to-create-routed-virtual-network-in-Openstack-with-Openvswitch.md)
-    * [Some ESXi related commands](Networking/Some-ESXi-related-commands.md)
     * [Trying BGP Monitoring Protocol with OpenBMP](Networking/Trying-BGP-Monitoring-Protocol-with-OpenBMP.md)
     * [Example of BGP-LS in JunOS](Networking/Example-of-BGP-LS-in-Junos.md)
     * [Cisco IOS-XR Config Example for PCEP and BGP-LS](Networking/Cisco-IOS-XR-Config-Example-for-PCEP-and-BGP-LS.md)
@@ -15,6 +14,7 @@
     * [How to resize VM image](Sysadmin/How-to-resize-VM-image.md)
     * [How to automate VM configuration that does not support DHCP and Cloud init](Sysadmin/How-to-automate-VM-configuration-that-does-not-support-DHCP-and-Cloud-init.md)
     * [Troubleshooting Keystone and Memcached](Sysadmin/Troubleshooting-Keystone-and-Memcached.md)
+    * [Some ESXi related commands](Sysadmin/Some-ESXi-related-commands.md)
 
 * [Misc](Misc/README.md)
     * [Git workflow illustrated](Misc/Git-workflow-illustrated.md)
