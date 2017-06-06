@@ -1,3 +1,5 @@
+# Mirror VM traffic in Openstack Contrail with custom sniffer
+
 The proper way to mirror VM traffic in Contrail is by using its analyzer VM as documented in 
 * (https://www.juniper.net/documentation/en_US/contrail3.0/topics/task/configuration/configure-traffic-analyzer-vnc.html)
 
@@ -38,8 +40,8 @@ To use we own VM as sniffer VM, we need to launch the VM as an Service Instance.
         * Virtualization type: Virtual Machine
         * Service mode: transparent
         * Service type: Analyzer
-        * Image name: ubuntu-sniffer (or any name that we assign when we upload the image)
-        * Instance flavor: <select any appropriate flavor>
+        * Image name: ubuntu-sniffer - or any name that we assign when we upload the image -
+        * Instance flavor: - select any appropriate flavor -
         * Interfaces: one should be enough, but for flexibility i add 2 interfaces
             * first interface: management
                 * i will use this interface to access the VM and run tcpdump or any other sniffing tool
@@ -54,7 +56,7 @@ To use we own VM as sniffer VM, we need to launch the VM as an Service Instance.
     * Click on '+' to create a new instance, and use the following entries:
         * Put any name
             * for further reference, let put name: capture1
-        * Service template: st-mirror (or any service template name that we just created in previous step)
+        * Service template: st-mirror - or any service template name that we just created in previous step - 
         * Number of instance: 1
         * HA mode: none
         * Interface type: 
