@@ -1,3 +1,5 @@
+# How to resize VM image
+
 This is the procedure to resize a VM image that has single flat primary partition.
 
 * resize the disk image
