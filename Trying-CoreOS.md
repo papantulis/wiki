@@ -1,3 +1,4 @@
+# Trying CoreOS
 
 ## Overview
 * CoreOS is a lot different compared with other normal Linux distros. 
